@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff; /* Texto blanco */
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(45deg, #00ff00 10%, transparent 10%), 
+                      linear-gradient(-45deg, #00ff00 10%, transparent 10%);
+    background-size: 20px 20px; /* Tamaño de las líneas cruzadas */
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #00ff00; /* Borde verde neón */
+    border-radius: 10px;
+    background-color: #1a1a1a; /* Fondo oscuro para contraste */
+    box-shadow: 0 4px 30px rgba(0, 255, 0, 0.5); /* Sombra verde neón */
+    color: #ffffff; /* Texto blanco dentro del contenedor */
+}
+
+h1 {
+    color: #00ff00; /* Verde neón para el título */
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #00ff00; /* Efecto de neón */
+}
+
+h2 {
+    color: #00cc00; /* Verde más oscuro para subtítulos */
+    text-align: center;
+    text-shadow: 0 0 8px #00cc00; /* Efecto de neón suave */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #00ff00; /* Verde neón para etiquetas */
+    text-shadow: 0 0 5px #00ff00; /* Efecto de neón en etiquetas */
+}
+
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #00ff00; /* Borde verde neón */
+    border-radius: 5px;
+    background-color: #333333; /* Fondo gris oscuro */
+    color: #ffffff; /* Texto blanco */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transición suave */
+}
+
+input[type="number"]:focus {
+    border-color: #00cc00; /* Borde verde oscuro al enfocar */
+    outline: none;
+    box-shadow: 0 0 10px #00ff00; /* Efecto de neón al enfocar */
+}
+
+button {
+    background-color: #00ff00; /* Verde neón para botones */
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px; /* Tamaño de fuente más grande */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transición suave */
+}
+
+button:hover {
+    background-color: #00cc00; /* Verde más oscuro al pasar el mouse */
+    box-shadow: 0 0 15px #00ff00; /* Efecto de neón al pasar el mouse */
+}
+
+#resultado {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px; /* Tamaño de fuente del resultado */
+    font-weight: bold;
+    color: #ff0000; /* Color rojo neón para el resultado */
+    text-shadow: 0 0 10px #ff0000; /* Efecto de neón rojo */
+}
